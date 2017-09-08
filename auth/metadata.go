@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	headerAuthorize = "authorization"
+	headerAuthorize = "jwt"
 )
 
 // AuthFromMD is a helper function for extracting the :authorization header from the gRPC metadata of the request.
